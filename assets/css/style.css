@@ -20,7 +20,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.png") top right no-repeat;
+  background: #040404 url("../img/pioloc.jpg") top right no-repeat;
   background-size: cover;
   background-attachment: fixed; /* Keeps the background fixed when scrolling */
   left: 0;
@@ -150,6 +150,7 @@ a:hover {
     transform: translateY(-50%);
   }
 }
+
 
 h1.type {
   animation: stackAndUnstack 2s linear infinite;
@@ -497,7 +498,7 @@ section .container {
   }
 }
 
-.section-title h2 {
+.section-title h1 {
   font-size: 14px;
   font-weight: 500;
   padding: 0;
